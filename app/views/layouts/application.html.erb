@@ -53,8 +53,13 @@
   </nav>
     <div class="row">
       <div class="small-9 small-centered columns">
-        <p class="notice"><%= notice %></p>
-       <p class="alert"><%= alert %></p>
+      <% flash.each do |type, message| %>
+        <div class="alert-box <%= flash_class type %>">
+          <%= message %>
+        </div>
+      <% end %>
+       
+
 
 
     <%= yield %>
