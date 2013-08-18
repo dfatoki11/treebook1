@@ -1,7 +1,5 @@
-david:
-	first_name: "David"
-	last_name: "Fatoki"
-	email: "dfatoki11@gmail.com"
-	profile_name: "dfatoki11"
-	password: "password"
-	password_confirmation: "password"
+jason:
+  first_name: "Jason"
+  last_name: "Seifer"
+  email: "jason@teamtreehouse.com"
+  profile_name: "jasonseifer"
