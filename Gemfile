@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '2.0.0'
 
 gem 'rails', '3.2.13'
 
@@ -10,6 +11,10 @@ gem 'simple_form'
 
 group :development, :test do 
 	gem 'sqlite3'
+end
+
+group :production do 
+	gem 'pg'
 end
 
 
