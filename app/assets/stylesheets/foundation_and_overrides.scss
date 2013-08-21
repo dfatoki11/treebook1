@@ -979,7 +979,7 @@ $input-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
 
 // Controlling the styles for the title in the top bar
 // $topbar-title-weight: bold;
-// $topbar-title-font-size: emCalc(17px);
+$topbar-title-font-size: emCalc(15px);
 
 // Set the link colors and styles for top-level nav
 // $topbar-link-color: #fff;
@@ -996,7 +996,7 @@ $input-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
 
 // Top menu icon styles
 // $topbar-menu-link-transform: uppercase;
-// $topbar-menu-link-font-size: emCalc(13px);
+$topbar-menu-link-font-size: emCalc(11px);
 // $topbar-menu-link-weight: bold;
 // $topbar-menu-link-color: #fff;
 // $topbar-menu-icon-color: #fff;
@@ -1005,7 +1005,7 @@ $input-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
 
 // Transitions and breakpoint styles
 // $topbar-transition-speed: 300ms;
-// $topbar-breakpoint: emCalc(940px); // Change to 9999px for always mobile layout
+$topbar-breakpoint: emCalc(525px); // Change to 9999px for always mobile layout
 // $topbar-media-query: "only screen and (min-width "#{$topbar-breakpoint}")";
 
 
